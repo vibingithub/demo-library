@@ -1,0 +1,11 @@
+server:
+  port: 6000
+  
+spring:
+  application:
+    name: school-library
+    
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
